@@ -1,0 +1,56 @@
+.footer{
+    .block{
+        display: flex;
+        flex-direction: column;
+        gap: 125px;
+    }
+    background-color: var(--main-pink);
+
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &__logo,
+    &__nav,
+    &__contacts{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        p{
+            max-width: 265px;
+        }
+        a{
+            border-bottom: 1px solid transparent;
+        }
+    }
+    &__nav li{
+        font-size: 32px;
+        font-weight: 600;
+        border-bottom: 1px solid transparent;
+
+    }
+    &__nav li:hover,
+    &__contacts a:hover{
+        border-bottom: 1px solid var(--main-white);
+        transition: 1s all ease;
+    }
+
+    &__right-column{
+        display: flex;
+        justify-content: center;
+        gap: 120px;
+    }
+
+    &__privacy-and-terms{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 50px;
+        opacity: 0.5;
+
+        // a{
+        //     opacity: 0.5;
+        // }
+    }
+}

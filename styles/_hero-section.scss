@@ -1,0 +1,26 @@
+.hero-section{
+    &__container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 120px;
+        max-width: 502px;
+    }
+   
+    &__bg {
+        position: absolute;
+        content: "";
+        width: 50%;
+        height: 100vh;
+        // background-image: url(../img/hero-bg.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        right: 0;
+        top: 0;
+        z-index: -1;
+}
+}

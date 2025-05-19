@@ -1,0 +1,107 @@
+.contacts-section{
+    padding: 100px 0;
+    background-color: var(--main-pink);
+
+    &__container{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    &__title{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        h2{
+            max-width: 751px;
+            font-size: 64px;
+        }
+        p{
+            max-width: 742px;
+        }
+    }
+    &__items{
+        display: flex;
+        justify-content: flex-start;
+        gap: 25px;
+    }
+    &__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        border-radius: 30px;
+        gap: 50px;
+        background-color: var(--main-white);
+        color: var(--main-black);
+
+        h3{
+            max-width: 428px; 
+            font-size: 24px;
+            font-weight: 600;  
+            // line-height: 1.1; 
+            text-transform: uppercase;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+
+            input{
+                padding: 16px;
+                border-radius: 30px;
+                border: 1px solid #7c7c7c;
+                // opacity: 0.2;
+                width: 429px;
+            }
+           ::placeholder{
+                color: var(--main-black);
+            }
+            textarea{
+                border-radius: 15px;
+                width: 429px;
+                // opacity: 0.2;
+                border: 1px solid #7c7c7c;
+                padding: 16px;
+                resize: none;
+            }
+            button{
+                background-color: var(--main-green);
+                color: var(--main-white);
+                padding: 15px;
+                border-radius: 30px;
+                width: 429px;
+                // margin: 0 auto;
+                text-align: center;
+                align-items: center;
+                text-transform: uppercase;
+                border: 1px solid transparent;
+                cursor: pointer;
+            }
+            button:hover{
+                transform: scale(1.05);
+                transition: 0.2s all ease-in;
+            }
+        }
+
+    }
+    &__socials{
+        background-color: var(--main-green);
+        padding: 50px;
+        border-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        h4{
+            opacity: 0.5;
+        }
+        .links{
+            font-size: 32px;
+            font-weight: 600;
+        }
+    }
+}

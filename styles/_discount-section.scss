@@ -1,0 +1,14 @@
+.discount-section{
+    padding: 100px 0;
+    display: flex;
+    background-color: var(--main-white);
+    color: var(--main-black);
+
+    // flex-direction: column;
+    h2{
+        // width: 100%;
+        font-size: 76px;
+        text-transform: uppercase;
+        max-width: 100%;
+    }
+}
